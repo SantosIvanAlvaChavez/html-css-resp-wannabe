@@ -74,6 +74,7 @@ img {
 
 /* MEDIA QUERIES - RESPONSIVE */
 
+/* Smartphone */
 @media screen and (max-width: 420px) {
 
   * {
@@ -81,7 +82,7 @@ img {
   }
 
   body {
-    font-size: 17px;
+    font-size: 16px;
     font-family: sans-serif;
   }
 
@@ -115,5 +116,30 @@ img {
   #why .row>.second,
   #why .row>.third {
     margin-top: 30px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 421px) and (max-width: 1024px){
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 20px;
   }
 }
